@@ -32,6 +32,7 @@ public class PostController {
 		return postService.post(request);
 	}
 
+
 	// 조회
 	@GetMapping("/posts")
 	public PostDto post(
@@ -47,6 +48,5 @@ public class PostController {
 	) {
 		return postService.updatePost(request);
 	}
-
 
 }

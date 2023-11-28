@@ -11,3 +11,5 @@ public class DemoApplication {
 	}
 
 }
+
+// 1:N 하려면 MNAY TO ONE 은 무조건 써야함, ONETOMANY는 쓸 필요 없음(수정x)
